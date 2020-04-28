@@ -1,0 +1,8 @@
+model\Telemovel.class
+model\Anunciante.class
+model\Automovel.class
+model\Apartamento.class
+model\Endereco.class
+model\ArtigoParaVenda.class
+model\ArtigoParaAlugar.class
+com\pelosi\dc_tp2_1180017\main\Olxyz.class
