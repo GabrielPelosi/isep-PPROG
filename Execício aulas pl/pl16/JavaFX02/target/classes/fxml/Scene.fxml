@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="334.0" prefWidth="471.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="com.pelosi.javafx02.FXMLController">
+    <children>
+        <Label fx:id="label" layoutX="80.0" layoutY="216.0" minHeight="16" minWidth="69" prefHeight="34.0" prefWidth="324.0" />
+      <Button fx:id="bDiaSemana" layoutX="80.0" layoutY="295.0" mnemonicParsing="false" onAction="#clicarDiaSemana" text="Dia da Semana" />
+      <Button fx:id="bDiaExtenso" layoutX="195.0" layoutY="295.0" mnemonicParsing="false" onAction="#clicarDiaExtenso" prefHeight="25.0" prefWidth="116.0" text="Data por Extenso" />
+      <Button fx:id="bLimpar" layoutX="331.0" layoutY="295.0" mnemonicParsing="false" onAction="#clicarLimpar" prefHeight="25.0" prefWidth="69.0" text="Limpar" />
+      <Label layoutX="100.0" layoutY="42.0" text="Data(aaaa/mm/dd):">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="100.0" layoutY="113.0" prefHeight="17.0" prefWidth="150.0" text="Dia da Semana:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="dataInsert" layoutX="258.0" layoutY="42.0" prefHeight="25.0" prefWidth="168.0" />
+      <TextField fx:id="diaSemana" layoutX="258.0" layoutY="115.0" prefHeight="25.0" prefWidth="168.0" />
+    </children>
+</AnchorPane>

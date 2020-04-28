@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pelosi.javafx1.FXMLController">
+    <children>
+      <BorderPane prefHeight="219.0" prefWidth="358.0">
+         <bottom>
+              <Button fx:id="button" onAction="#handleButtonAction" text="Click Me!" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets bottom="20.0" />
+               </BorderPane.margin></Button>
+         </bottom>
+         <right>
+              <Label fx:id="label" minHeight="16" minWidth="69" onDragDetected="#addValue" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Label>
+         </right>
+         <center>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Número de Cliques:" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font></Text>
+         </center>
+         <top>
+            <Label text="Contador de Cliques" BorderPane.alignment="CENTER" />
+         </top>
+      </BorderPane>
+    </children>
+</AnchorPane>
